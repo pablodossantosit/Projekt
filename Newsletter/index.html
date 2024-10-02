@@ -8,27 +8,21 @@
 </head>
 <body>
     <div class="box">
-        <div class="contact">Get in Touch</div>
         <form action="">
+            <h1><b>Get in Touch</b></h1>
             <div class="input">
-                <input type="text" name="name" id="name" class="inputUser" required>
-                <label for="name">Enter your name</label>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="inputUser" placeholder="Enter your Name" autocomplete="off" required>
             </div>
-            <br>
-            <div>
-                <input type="email" name="email" id="email" class="inputUser" required>
-                <label for="email">Enter your email</label>
+            <div class="input">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="inputUser" placeholder="Enter a valid email address" autocomplete="off" required>
             </div>
-            <br>
-            <div>
+            <div class="input">
+                <label for="message">Message</label>
                 <textarea name="message" id="message" class="inputUser" required></textarea>
-                <label for="message">Enter message</label>
             </div>
-            <button>Submit</button>
-            <h2>dsavada</h2>
-            <h1>dasgadas
-                
-            </h1>
+            <button type="submit">Submit</button>
         </form>
     </div>
 </body>
